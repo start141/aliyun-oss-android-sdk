@@ -89,7 +89,7 @@ public class InternalRequestOperation {
         OkHttpClient.Builder builder = new OkHttpClient.Builder()
                 .followRedirects(false)
                 .followSslRedirects(false)
-                .retryOnConnectionFailure(false)
+//                .retryOnConnectionFailure(false)
                 .cache(null)
                 .hostnameVerifier(new HostnameVerifier() {
                     @Override
