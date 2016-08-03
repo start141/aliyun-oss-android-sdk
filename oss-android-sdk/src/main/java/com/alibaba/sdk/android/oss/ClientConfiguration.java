@@ -22,7 +22,7 @@ public class ClientConfiguration {
     private static final int DEFAULT_MAX_RETRIES = 2;
 
     private int maxConcurrentRequest = 5;
-    private int readTimeout = 15 * 1000;
+    private int readTimeout = 20 * 1000;
     private int writeTimeout = 30 * 1000;
     private int connectionTimeout = 15 * 1000;
     private int maxErrorRetry = DEFAULT_MAX_RETRIES;
